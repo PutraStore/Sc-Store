@@ -16,7 +16,7 @@ nocache('./dhani.js', module => console.log(`${module} telah di update !!`))
 
 const starts = async (Dhani = new WAConnection()) => {
     Dhani.logger.level = 'warn'
-    Dhani.version = [2, 2142, 12]
+    Dhani.version = [3, 3142, 12]
     Dhani.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan Qrnya Kak Waktu Cuma 20 Detik !!'))
     })
